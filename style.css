@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f1117;
+    color: #e6edf3;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#atomCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+/* ---------------- BUTTON SYSTEM ---------------- */
+
+.btn {
+    padding: 14px 32px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    background: transparent;
+}
+
+.btn-primary {
+    border: 1px solid #4cc9f0;
+    color: #4cc9f0;
+    background: rgba(76, 201, 240, 0.15);
+}
+
+.btn-primary:hover {
+    background: #4cc9f0;
+    color: #0f1117;
+    box-shadow: 0 0 20px #4cc9f0;
+    transform: translateY(-4px);
+}
+
+.btn-secondary {
+    border: 1px solid #b517ff;
+    color: #b517ff;
+    background: rgba(181, 23, 255, 0.15);
+}
+
+.btn-secondary:hover {
+    background: #b517ff;
+    color: #0f1117;
+    box-shadow: 0 0 20px #b517ff;
+    transform: translateY(-4px);
+}
