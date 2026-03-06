@@ -1,0 +1,21 @@
+.landing {
+    text-align: center;
+}
+
+.landing h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 4rem;
+    color: #4cc9f0;
+}
+
+.landing p {
+    margin: 1rem 0 3rem;
+    font-size: 1.2rem;
+    color: #bfc7d5;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
